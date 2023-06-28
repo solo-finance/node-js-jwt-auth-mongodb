@@ -48,14 +48,18 @@ Fullstack:
 
 > [Angular 13 + Node.js + Express + MongoDB example](https://www.bezkoder.com/mean-stack-crud-example-angular-13/)
 
+> [Angular 14 + Node.js + Express + MongoDB example](https://www.bezkoder.com/mean-stack-crud-example-angular-14/)
+
+> [Angular 15 + Node.js + Express + MongoDB example](https://www.bezkoder.com/angular-15-node-js-express-mongodb/)
+
+> [Angular 16 + Node.js + Express + MongoDB example](https://www.bezkoder.com/angular-16-node-js-express-mongodb/)
+
 > [React + Node.js + Express + MongoDB example](https://www.bezkoder.com/react-node-express-mongodb-mern-stack/)
 
 Integration on same Server/Port:
-> [Integrate Angular 8 with Node.js Express](https://www.bezkoder.com/integrate-angular-8-node-js/)
+> [Integrate Vue with Node.js Express](https://www.bezkoder.com/serve-vue-app-express/)
 
-> [Integrate Angular 10 with Node.js Express](https://www.bezkoder.com/integrate-angular-10-node-js/)
-
-> [Integrate Angular 12 with Node.js Express](https://www.bezkoder.com/integrate-angular-12-node-js/)
+> [Integrate Angular with Node.js Express](https://www.bezkoder.com/integrate-angular-12-node-js/)
 
 > [Integrate React with Node.js Express](https://www.bezkoder.com/integrate-react-express-same-server-port/)
 
