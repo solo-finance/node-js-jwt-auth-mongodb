@@ -7,6 +7,7 @@ var jwt = require("jsonwebtoken");
 var bcrypt = require("bcryptjs");
 
 exports.signup = (req, res) => {
+  console.log(req.body.password)
   const user = new User({
     username: req.body.username,
     email: req.body.email,
@@ -64,7 +65,7 @@ exports.signup = (req, res) => {
 
 exports.signin = (req, res) => {
   User.findOne({
-    username: req.body.username
+    email: req.body.email
   })
     .populate("roles", "-__v")
     .exec((err, user) => {
@@ -97,6 +98,7 @@ exports.signin = (req, res) => {
                                 expiresIn: 86400, // 24 hours
                               });
 
+      console.log(token)
       var authorities = [];
 
       for (let i = 0; i < user.roles.length; i++) {
